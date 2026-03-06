@@ -33,7 +33,7 @@
         <aside class="w-64 flex-shrink-0 flex flex-col border-r border-primary/10 bg-background-dark">
             <div class="p-6 flex items-center gap-3">
                 <div class="size-10 rounded-full bg-primary flex items-center justify-center text-background-dark">
-                    <span class="material-symbols-outlined text-2xl font-bold">delete_sweep</span>
+                    <span class="material-symbols-outlined text-2xl font-bold">Logo</span>
                 </div>
                 <div>
                     <h1 class="text-lg font-bold leading-none">Smart Bin</h1>
@@ -42,12 +42,10 @@
             </div>
             <nav class="flex-1 px-4 py-4 space-y-2">
                 <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-primary text-background-dark font-semibold" href="index.jsp">
-                    <span class="material-symbols-outlined">dashboard</span>
-                    <span>Dashboard</span>
+                    <span class="material-symbols-outlined">Dashboard</span>
                 </a>
                 <a class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-slate-300 hover:bg-primary/10 transition-colors" href="lich-su-hoat-dong">
-                    <span class="material-symbols-outlined">history</span>
-                    <span>Lịch sử</span>
+                    <span class="material-symbols-outlined">History</span>
                 </a>
             </nav>
             <div class="p-4 mt-auto">
@@ -81,7 +79,7 @@
                         </div>
                     </div>
                     <button onclick="updateDashboard()" class="px-5 py-2.5 bg-primary/20 text-primary border border-primary/30 font-bold rounded-lg hover:bg-primary hover:text-black transition-all flex items-center gap-2">
-                        <span class="material-symbols-outlined text-sm">refresh</span> Làm mới dữ liệu
+                        <span class="material-symbols-outlined text-sm">refresh</span> 
                     </button>
                 </section>
 
@@ -113,7 +111,7 @@
                     <div class="bg-slate-900/40 p-6 rounded-xl border border-primary/5 flex flex-col items-center justify-center">
                         <p class="text-sm text-slate-500 font-medium mb-4 self-start">Tình trạng tổng quát</p>
                         <div id="cond-icon-box" class="size-14 rounded-full bg-primary/20 flex items-center justify-center text-primary mb-3">
-                            <span id="cond-icon" class="material-symbols-outlined text-3xl font-bold">task_alt</span>
+                            <span id="cond-icon" class="material-symbols-outlined text-3xl font-bold">Img</span>
                         </div>
                         <p id="cond-text" class="text-2xl font-bold text-white">Tốt</p>
                     </div>
@@ -121,7 +119,7 @@
                 
                 <section class="bg-slate-900/40 rounded-xl border border-primary/5 p-6">
                     <h4 class="font-bold flex items-center gap-2 mb-4">
-                        <span class="material-symbols-outlined text-primary">pets</span> Cảnh báo động vật
+                        <span class="material-symbols-outlined text-primary">Pets</span> Cảnh báo động vật
                     </h4>
                     <div id="animal-alert-box" class="hidden p-4 bg-orange-500/10 border border-orange-500/20 rounded-lg flex items-center gap-4 transition-all animate-bounce">
                         <span class="material-symbols-outlined text-orange-500">warning</span>
@@ -167,7 +165,7 @@
                         banner.className = "bg-orange-500/10 border border-orange-500/20 rounded-xl p-6 flex items-center justify-between text-orange-500";
                         bTitle.innerText = "CẢNH BÁO VẬT NÓNG";
                         bTitle.className = "text-2xl font-bold text-orange-500";
-                        bIcon.innerText = "local_fire_department";
+                        bIcon.innerText = "fire";
                         bIconBox.className = "size-16 rounded-full bg-orange-500 flex items-center justify-center text-black shadow-[0_0_15px_rgba(249,115,22,0.5)]";
                     } else if (level >= 90) { 
                         // ƯU TIÊN 2: THÙNG ĐẦY (Màu đỏ)

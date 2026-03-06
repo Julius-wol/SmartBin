@@ -15,12 +15,12 @@
         <div class="flex h-screen">
             <aside class="w-64 border-r border-primary/10 p-6 space-y-8">
                 <div class="flex items-center gap-3">
-                    <span class="material-symbols-outlined text-primary text-3xl">delete_sweep</span>
+                    <span class="material-symbols-outlined text-primary text-3xl">logo</span>
                     <span class="text-xl font-bold">Smart Bin</span>
                 </div>
                 <nav class="space-y-4">
-                    <a href="index.jsp" class="flex items-center gap-3 text-slate-400 hover:text-primary"><span class="material-symbols-outlined">dashboard</span> Dashboard</a>
-                    <a href="lich-su-hoat-dong" class="flex items-center gap-3 text-primary font-bold"><span class="material-symbols-outlined">history</span> Lịch sử</a>
+                    <a href="index.jsp" class="flex items-center gap-3 text-slate-400 hover:text-primary"><span class="material-symbols-outlined"></span> Dashboard</a>
+                    <a href="lich-su-hoat-dong" class="flex items-center gap-3 text-primary font-bold"><span class="material-symbols-outlined"></span>History</a>
                 </nav>
             </aside>
 
@@ -50,6 +50,7 @@
                                 <th class="p-4">HÀNH ĐỘNG</th>
                                 <th class="p-4">TRẠNG THÁI</th>
                             </tr>
+                        <a href="history.jsp"></a>
                         </thead>
                         <tbody class="divide-y divide-primary/5">
                             <c:forEach items="${historyList}" var="item">
