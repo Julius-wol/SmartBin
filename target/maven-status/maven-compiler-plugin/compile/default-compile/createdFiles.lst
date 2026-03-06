@@ -1,0 +1,8 @@
+com\mycompany\smartbin\JakartaRestConfiguration.class
+dao\DBConnection.class
+dao\ThungRacDAO.class
+controller\HistoryController.class
+model\LichSu.class
+com\mycompany\smartbin\resources\JakartaEE10Resource.class
+controller\ApiController.class
+model\ThungRac.class
